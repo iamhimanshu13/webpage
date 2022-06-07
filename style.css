@@ -1,0 +1,138 @@
+.h1{
+color: white;
+font-size: 8px;
+border: white solid 2px;
+padding: 4px;
+margin-left: 70;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.911);
+}
+.nav{  
+      display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+   
+   
+}
+ 
+.nav1{
+    color: white;
+    text-decoration: none; 
+    margin-right: 70px;
+   
+
+
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.h2{
+color: white;
+font-size: 45px;
+}
+.text1{
+    color: rgba(255, 255, 255, 0.707);
+}
+.h3{
+    color: white;
+    }
+
+
+    .sec2{
+        margin-left: 70;
+        margin-top: 220;
+       
+    }
+    .profileimage{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        padding-top: 10px;
+    }
+    .text2{
+        color: white;
+    }
+    .aliza{
+        display: flex;
+        column-gap: 15px;
+    }
+    .flotebox{
+        background-color: black;
+        width: 250px;
+        padding-left: 18px;
+        position: relative;
+        left: 400;
+        bottom: 40;
+
+    }
+    .mainsec{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .leftsec{
+        width: 40%;
+    }
+    .rightsec{
+        width: 60%;
+    }
+    .mainimg{
+        width: 850px;
+        height: 500px;
+    }
+    #interiordesigner{
+        font-size: 8px;
+    
+    }
+    #alizawebber{
+        font-size: 8px;
+        
+    }
+   #T2020{
+       font-size: 12px;
+   }
+   .sec3{
+    
+   }
+   .mainimg1{
+       text-align: end;
+       margin-right: 70px;
+       margin-top: 100px;
+   }
+   #nav11{
+       text-decoration: underline;
+   }
+   .icon{
+       display: none;
+   }
+   @media (max-width: 480px) {
+       .icon{
+           display: block;
+           justify-content: center;
+
+           
+       }
+       .nav{
+           display: none;
+       }
+        .mainsec{
+            flex-direction: column;
+        }
+        .leftsec{ width: 100%;}
+        .rightsec{ 
+            width: 100%;
+        }
+        .sec1{
+            justify-content: space-between;
+        }
+       
+   }
+       
+    
